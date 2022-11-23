@@ -9,8 +9,4 @@ if (num == 4) Console.WriteLine("Этот день - четверг");
 if (num == 5) Console.WriteLine("Этот день - пятница");
 if (num == 6) Console.WriteLine("Этот день - суббота");
 if (num == 7) Console.WriteLine("Этот день - воскресение");
-else {
-    Console.WriteLine("Введенное число не соответствует ни одному из дней недели");
-}
-
-
+Console.WriteLine("Введенное число не соответствует ни одному из дней недели");
