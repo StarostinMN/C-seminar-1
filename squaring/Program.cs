@@ -18,7 +18,7 @@ Console.WriteLine("Квадрат числа " + num + " = " + sqr);
 
 Console.WriteLine("Второй способ:");
 
-Console.WriteLine(Math.Pow(num, 2));
+Console.WriteLine($"Квадрат числа {num} = {Math.Pow(num, 2)}");
 }
 
 
