@@ -6,19 +6,21 @@ Console.WriteLine("Введите число: ");
 
 string input = Console.ReadLine();
 
-if (input == ""){
+if (input == "")
+{
     Console.Write("Ничего не было введено!");
 }
 else
-{int num = Convert.ToInt32(input);
+{
+    int num = Convert.ToInt32(input);
 
-int sqr = num * num;
+    int sqr = num * num;
 
-Console.WriteLine("Квадрат числа " + num + " = " + sqr);
+    Console.WriteLine("Квадрат числа " + num + " = " + sqr);
 
-Console.WriteLine("Второй способ:");
+    Console.WriteLine("Второй способ:");
 
-Console.WriteLine($"Квадрат числа {num} = {Math.Pow(num, 2)}");
+    Console.WriteLine($"Квадрат числа {num} = {Math.Pow(num, 2)}");
 }
 
 
