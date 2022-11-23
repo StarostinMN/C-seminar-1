@@ -4,11 +4,18 @@ Console.Clear();
 
 Console.WriteLine("Введите число: ");
 
-int num = int.Parse(Console.ReadLine());
+string input = Console.ReadLine();
+
+if (input == ""){
+    Console.Write("Ничего не было введено!");
+}
+else
+{int num = int.Parse(input);
 
 int sqr = num * num;
 
-Console.Write("Кdадрат числа " + num + " = " + sqr);
+Console.Write("Квадрат числа " + num + " = " + sqr);}
+
 
 
 
