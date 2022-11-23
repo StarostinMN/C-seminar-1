@@ -10,7 +10,7 @@ if (input == ""){
     Console.Write("Ничего не было введено!");
 }
 else
-{int num = int.Parse(input);
+{int num = Convert.ToInt32(input);
 
 int sqr = num * num;
 
