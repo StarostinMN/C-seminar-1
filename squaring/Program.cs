@@ -14,7 +14,12 @@ else
 
 int sqr = num * num;
 
-Console.Write("Квадрат числа " + num + " = " + sqr);}
+Console.WriteLine("Квадрат числа " + num + " = " + sqr);
+
+Console.WriteLine("Второй способ:");
+
+Console.WriteLine(Math.Pow(num, 2));
+}
 
 
 
