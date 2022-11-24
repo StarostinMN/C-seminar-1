@@ -3,11 +3,19 @@
 2 -> " -2, -1, 0, 1, 2" */
 Console.Clear();
 Console.WriteLine("Введите ваше число ");
-int N = Math.Abs(int.Parse(Console.ReadLine()));
+/* int N = Math.Abs(int.Parse(Console.ReadLine()));
 int count = -N;
 while (count <= N)
 {
     Console.Write(count);
     Console.Write(" ");
     count++;
+} */
+int numA = Convert.ToInt32(Console.ReadLine());
+int numB = -numA;
+while (numB <= numA)
+{
+    Console.Write(numB);
+    Console.Write(" ");
+    numB += 1;
 }
